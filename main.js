@@ -4,11 +4,9 @@ console.log("The bot is starting");
 //This is an import statement.
 var twit = require('twit');
 
+var config = require('config');
+
 var T = new Twit({
-    consumer_key:        '...'
-  , consumer_secret:     '...'
-  , access_token:        '...'
-  , access_token_secret: '...'
 });
 
 //Tweet "Hello, world!"
